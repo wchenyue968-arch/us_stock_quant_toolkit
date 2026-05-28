@@ -294,28 +294,50 @@ run_app.bat
 ## Suggested GitHub Structure
 
 ```text
+
 us_stock_quant_toolkit/
-??? app.py
-??? run_app.bat
-??? requirements.txt
-??? README.md
-??? docs/
-?   ??? application_materials.md
-??? src/
-?   ??? main.py
-?   ??? data_loader.py
-?   ??? indicators.py
-?   ??? strategies.py
-?   ??? backtester.py
-?   ??? metrics.py
-?   ??? plots.py
-?   ??? report_generator.py
-?   ??? pdf_report_generator.py
-?   ??? asset_universe.py
-?   ??? multi_asset_analysis.py
-??? outputs/
-    ??? *.png
-    ??? *.pdf
+
+- app.py
+
+- run_app.bat
+
+- requirements.txt
+
+- README.md
+
+- docs/
+
+  - application_materials.md
+
+- src/
+
+  - main.py
+
+  - data_loader.py
+
+  - indicators.py
+
+  - strategies.py
+
+  - backtester.py
+
+  - metrics.py
+
+  - plots.py
+
+  - report_generator.py
+
+  - pdf_report_generator.py
+
+  - asset_universe.py
+
+  - multi_asset_analysis.py
+
+- outputs/
+
+  - *.png
+
+  - *.pdf
 ```
 
 The local cache, virtual environment, Python cache files, and generated CSV files are excluded by `.gitignore`.
