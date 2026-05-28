@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local caches
+.matplotlib-cache/
+.streamlit/
+
+# Raw and processed market data caches
+data/raw/
+data/processed/
+
+# Generated tabular outputs
+outputs/*.csv
+outputs/*.xlsx
+
+# Keep generated presentation assets
+!outputs/*.png
+!outputs/*.pdf
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
