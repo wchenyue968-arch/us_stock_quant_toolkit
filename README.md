@@ -372,3 +372,12 @@ Potential future extensions include:
 - Better transaction cost and slippage modeling
 - More polished Streamlit dashboard design
 - Optional GitHub Actions checks
+## Online Demo
+
+This project can be deployed with Streamlit Cloud using `app.py` as the entry point.
+
+Local run command:
+
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
